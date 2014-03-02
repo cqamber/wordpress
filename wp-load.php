@@ -52,6 +52,8 @@ if ( file_exists( ABSPATH . 'wp-config.php') ) {
 	require_once( ABSPATH . WPINC . '/functions.php' );
 	
 	
+	
+	
 
 	$path = wp_guess_url() . '/wp-admin/setup-config.php';
 
