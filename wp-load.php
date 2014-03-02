@@ -41,6 +41,7 @@ if ( file_exists( ABSPATH . 'wp-config.php') ) {
 	define( 'WP_CONTENT_DIR', ABSPATH . 'wp-content' );
 	require_once( ABSPATH . WPINC . '/load.php' );
 	require_once( ABSPATH . WPINC . '/version.php' );
+	
 
 	wp_check_php_mysql_versions();
 	wp_load_translations_early();
@@ -49,6 +50,10 @@ if ( file_exists( ABSPATH . 'wp-config.php') ) {
 	wp_fix_server_vars();
 
 	require_once( ABSPATH . WPINC . '/functions.php' );
+	
+	
+	
+	
 
 	$path = wp_guess_url() . '/wp-admin/setup-config.php';
 

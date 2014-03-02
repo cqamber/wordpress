@@ -92,6 +92,8 @@ function _wp_menu_output( $menu, $submenu, $submenu_as_parent = true ) {
 
 		$title = wptexturize( $item[0] );
 
+		
+		
 		echo "\n\t<li$class$id>";
 
 		if ( false !== strpos( $class, 'wp-menu-separator' ) ) {

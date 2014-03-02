@@ -126,6 +126,11 @@ for ( $i = 1; $i <= $count; $i++ ) {
 				}
 			}
 
+			
+			
+			
+			
+			
 			if (preg_match('/Date: /i', $line)) { // of the form '20 Mar 2002 20:32:37'
 				$ddate = trim($line);
 				$ddate = str_replace('Date: ', '', $ddate);
