@@ -43,6 +43,8 @@ function _wp_menu_output( $menu, $submenu, $submenu_as_parent = true ) {
 		$class = array();
 		$aria_attributes = '';
 
+		
+		
 		if ( $first ) {
 			$class[] = 'wp-first-item';
 			$first = false;
